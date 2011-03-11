@@ -119,6 +119,5 @@ while (get_create_distance(.1) < 1800)
 findpoms();
 enable_servos();
 sort_color();
-create_stop();
 }
 
