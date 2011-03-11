@@ -1,0 +1,75 @@
+Hello everyone! Here are some instructions for getting set up with this repository.
+
+Visit this link for instructions on setting up Git and your SSH key:
+
+http://help.github.com/set-up-git-redirect/
+
+Ask Ms. McGuire or Lane to add you to the collaborators.
+
+Or if you know the password to the JusticeLeague GitHub account:
+
+Log on to the JusticeLeague account in GitHub.
+
+Go to the Justice League Botball Team repository.
+
+Go to the admin tab.
+
+Go to the Collaborators tab.
+
+Add you GitHub account to the collaborators.
+
+
+
+Using GitHub:
+
+SmartGit(Mac):
+
+I don't really know yet. I will figure out tommorrow.
+
+Git Gui(PC):
+
+1. Open Git Gui
+
+2. Click "Clone Existing Repository"
+
+3. For the Source Location Path enter:
+git@github.com:JusticeLeague/Justice-League-Botball-Team.git
+
+4. For the Target Directory browse to the path where you wish to keep the folder containing your botball programs.
+
+5. At the end of the path type /Botball Programs or /whatever you wish to name the folder.
+
+6. Click Clone
+
+7. If there is anything that you have made that is not in the repository, move it to your new botball programs folder.
+
+Using Git Gui to Commit, Push, and Pull:
+
+1. Right click on your new botball programs folder and click "Git GUI Here"
+
+2. Click Edit->Options and enter your GitHub username and email. Click apply.
+
+3. If there are any changes that you made in the programs folder, they will appear in the unstaged changes window.
+
+4. To commit the changes (Record the changes) click each file that you changed and they should move to the Staged Changes window.
+
+5. Enter a message describing what you did (if the message is too long on one line you will get an error so press return before it gets too long)
+   
+6. Click Commit
+
+7. To add the change to the repository, click Push.
+
+8. If you get an error when you Push (probably says something like fast-forward) you will need to pull 
+from the repository first.
+
+9. To pull, or get changes, from the repository:
+
+Click Remote->Fetch From->origin 
+
+Click Merge->Local Merge
+
+10. This will update your local files with the ones in the repository.
+    It does not undo changes that you made, but will just merge the repo programs with your local ones.
+
+11. Ask Lane if you are confused.
+
