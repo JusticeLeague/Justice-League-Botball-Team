@@ -4,6 +4,24 @@ Visit this link for instructions on setting up Git and your SSH key:
 
 http://help.github.com/set-up-git-redirect/
 
+Special note for Mac Users:
+When trying to find your .ssh folder, you will need to view hidden files and folders.
+
+To do this, first open terminal.
+
+Type:
+defaults write com.apple.finder AppleShowAllFiles TRUE
+
+
+And then:
+killall Finder
+
+Now you should be able to find your .ssh folder to copy the contents of the id_rsa.pub file to your GitHub account.
+
+To hide hidden files and folders do the same thing but replace TRUE with FALSE
+
+
+
 Ask Ms. McGuire or Lane to add you to the collaborators.
 
 Or if you know the password to the JusticeLeague GitHub account:
@@ -24,7 +42,9 @@ Using GitHub:
 
 SmartGit(Mac):
 
-I don't really know yet. I will figure out tommorrow.
+1. Download SmartGit
+
+2. I don't really know yet. I will figure out tommorrow.
 
 Git Gui(PC):
 
